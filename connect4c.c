@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//First 5 functions are for colours
 void r();
 void y();
 void d();
@@ -12,7 +12,7 @@ int check(char a[6][7], char p[100], char x,int f);//To check if the user has go
 void main()
 {
 	p();
-    printf("\n			   CONNECT4\nGame developed by Abhishek Sudhir (1811059) and Devansh Sanghavi (1811062)\n\n ");
+    printf("\nCONNECT4:\nGame developed by Abhishek Sudhir (1811059) and Devansh Sanghavi (1811062)\n\n ");
 	d();
 
     char a[6][7],p1[100],p2[100],x,o,con;
@@ -203,7 +203,7 @@ void main()
                         printf("\n%s wins",p);
                         j=8;
                         i=7;
-                        f+=51;
+                        f+=51;     //to get out of the while loop and odd no. is added so that next if condition isn't satisfied.
                         break;
                     }
                 }
