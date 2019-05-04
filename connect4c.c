@@ -203,7 +203,7 @@ void main()
                         printf("\n%s wins",p);
                         j=8;
                         i=7;
-                        f+=51;     //to get out of the while loop and odd no. is added so that next if condition isn't satisfied.
+                        f+=51;     //to get out of the while loop.
                         break;
                     }
                 }
